@@ -30,9 +30,9 @@ Over **1 year of continuous engineering and 11 months of audited real production
 ┌────────────────────────────────────────────────────────────────────────────────────────┐
 │                          PROJECT EVOLUTIONARY TIMELINE                                 │
 ├────────────────────────────────────────────────────────────────────────────────────────┤
-│ • July 2025         ──► Conception of Monolithic Prototype v1.0.0                     │
-│ • Aug 2025 - May 26 ──► 11-Month Audited Real Production Telemetry Run (318 Trades)     │
-│ • May 2026          ──► Release v1.0.0 Stable, Native Android Compose App & Dual Equity │
+│ • July 2025         ──► Conception of Monolithic Prototype v1.0.0                      │
+│ • Aug 2025 - May 26 ──► 11-Month Audited Real Production Telemetry Run (318 Trades)    │
+│ • May 2026          ──► Release v1.0.0 Stable, Native Android Compose App & Dual Equity│
 │ • June 2026         ──► Microservices Refactoring v1.4.0, Auto WIN Rollover v1.4.2     │
 │ • June 2026 (cont.) ──► LLM Failover Router v1.4.7, 2FA MT5 Bypass via ctypes v1.5.0   │
 │ • July - Aug 2026   ──► Daily Top Filter v1.6.0, Minimum Balance Lock v1.6.2 (Current) │
@@ -139,7 +139,7 @@ graph TD
 │                        HYBRID AI PIPELINE                              │
 ├────────────────────────────────────────────────────────────────────────┤
 │ 1. Macro LLM Sentinel   ──► Analyzes news & sets Regime (AGRESSIVO)    │
-│ 2. Predictive LSTM      ──► 60-candle window & 20 Technical Features     │
+│ 2. Predictive LSTM      ──► 60-candle window & 20 Technical Features   │
 │ 3. Shadow Meta-Labeler  ──► Parallel Random Forest Audit (No Blocking) │
 └────────────────────────────────────────────────────────────────────────┘
 ```
@@ -182,7 +182,7 @@ graph TD
 ├────────────────────────────────────────────────────────────────────────┤
 │ • Minimum Balance Lock   ──► Capital < R$ 1,200 forces 1-contract lot  │
 │ • Dynamic ATR Execution  ──► Stop & Take scaled by Volatility (ATR)    │
-│ • Daily Top Filter       ──► Blocks BUY at daily highs (RSI>75, ATR>4.2)│
+│ • Daily Top Filter       ──► Blocks BUY at daily highs (RSI>75,ATR>4.2)│
 │ • ADX/ATR Exhaustion     ──► Blocks stretched entries > EMA20 boundary │
 │ • Timedrop Liquidation   ──► Forces position exit after 106 minutes    │
 │ • Equity Guard           ──► Locks profits if drawdown > 50% from peak │
