@@ -11,17 +11,27 @@
 
 ---
 
+## 💡 Motivation & Origin Story (Why This System Was Built)
+
+Trading financial markets demands strict operational discipline and emotional control — two factors where human psychology frequently falters under stress, fear, or hesitation.
+
+**PX97-Axon** was created in July 2025 as a personal engineering journey: **to build an autonomous, data-driven system capable of eliminating human behavioral bias from real-time execution**. 
+
+Instead of struggling against human emotional reactions during market volatility, the goal was to delegate decision-making to a mathematically rigorous, multi-layered machine learning system that strictly enforces risk parameters, re-evaluates market sentiment automatically via LLMs, and executes trades with zero hesitation.
+
+---
+
 ## 📌 Executive Summary
 
 **PX97-Axon** is an autonomous, high-availability quantitative trading ecosystem designed for the Brazilian Future Market (Mini-Índice Bovespa - WIN). 
 
-Developed in Python, the project was engineered to overcome human behavioral bias and emotional decision-making in high-frequency environments. It combines a **hybrid artificial intelligence pipeline** (LLMs for macro news sentiment + LSTM Recurrent Neural Networks for time-series price prediction) with a **decoupled microservices architecture** and strict quantitative risk controls.
+Developed in Python, the project combines a **hybrid artificial intelligence pipeline** (LLMs for macro news sentiment + LSTM Recurrent Neural Networks for time-series price prediction) with a **decoupled microservices architecture** and strict quantitative risk controls.
 
 ---
 
 ## 📊 Audited 11-Month Performance Summary
 
-The performance of the system was audited over **11 operational months in real production** (August 8, 2025 to July 10, 2026, excluding March 2026 reserved for manual parameter calibration):
+The performance of the system was audited over **11 operational months in real production** (August 8, 2025 to July 10, 2026, excluding March 2026 dedicated to parameter calibration):
 
 | Metric | Dynamic Lote Management (1-3 Lotes) | Static 5-Lote Simulation |
 | :--- | :---: | :---: |
@@ -32,9 +42,11 @@ The performance of the system was audited over **11 operational months in real p
 | **Max Static Drawdown** | **R$ -90,40** | **R$ -342,00** |
 | **Max Trailing Drawdown** | R$ 591,58 | R$ 1.498,38 |
 | **Average Profit per Trade** | R$ 31,73 | R$ 108,12 |
-| **Return on Minimum Margin (R$ 500/lote)** | **2,018.1%** | **1,375.3%** |
+| **Recommended Margin (R$ 500/lote)** | R$ 500,00 to R$ 1.500,00 | R$ 2.500,00 |
+| **Return on Minimum Margin** | **2,018.1%** | **1,375.3%** |
 
-> 📄 **Official Report Document:** Download the complete PDF report: [relatorio_desempenho_axon.pdf](./relatorio_desempenho_axon.pdf).
+> 📄 **Official Audit Report (PDF):** Download the full report: [relatorio_desempenho_axon.pdf](./relatorio_desempenho_axon.pdf)  
+> 📄 **English Executive Summary (Markdown):** Read the report online: [PX97-Axon_Performance_Report_EN.md](./PX97-Axon_Performance_Report_EN.md)
 
 ---
 
